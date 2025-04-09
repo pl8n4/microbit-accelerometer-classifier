@@ -10,4 +10,4 @@ while running_time() - start_time < duration:
     z = accelerometer.get_z()
     t = running_time() - start_time  # time since recording started
     print("{},{},{},{}".format(t, x, y, z))
-    sleep(100)  # sample every 100ms
+    sleep(15)  # sample every 15ms
